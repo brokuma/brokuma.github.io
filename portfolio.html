@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Page</title>
+    <!-- boostrap 5 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- my style -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- icon -->
+    <link rel="icon" href="img/icon.png" type="image/png" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/nav-logo.png" alt="ourteam" width="40" height="25" class="d-inline-block align-top" />
+          Our Team
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- portfolio -->
+    <section class="portfolio">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12 text-center text-white">
+            <h2>Project / Portfolio</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-5 align-self-center">
+            <div id="carouselExampleCaptions" class="carousel slide justify-content-center" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item">
+                  <img src="img/portofolio1.jpg" class="d-block w-100" alt="..." />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Data Analysis</h5>
+                    <p>
+                      A data analyst will retrieve, gather data, organize it and use it to reach meaningful conclusions. Data Analyst work varies depending on the type of data that they`re working with (sales, social media, inventory, etc).
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item active">
+                  <img src="img/portofolio2.jpg" class="d-block w-100" alt="..." />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Programming</h5>
+                    <p>A programming language provides a way for a programmer to express a task so that it could be understood and executed by a computer.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/portofolio3.jpg" class="d-block w-100" alt="..." />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>WEB Development</h5>
+                    <p>A web developer is a programmer who specializes in the development of World Wide Web applications using a client server model. The applications typically use HTML, CSS and JavaScript in the client.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of portfolio -->
+
+    <!-- footer -->
+    <footer class="fixed-bottom text-white text-center p-2"><h2 class="fs-6">Created by Our_Team, 2021</h2></footer>
+    <!-- end of footer -->
+
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  </body>
+</html>

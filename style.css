@@ -1,0 +1,66 @@
+body {
+  background-image: url("img/bg-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+footer {
+  margin-top: 10px;
+  height: 28px;
+  background-color: rgba(72, 77, 73, 0.5);
+}
+.navbar a {
+  font-size: 17px;
+  font-weight: 500px;
+}
+.welcome {
+  margin-top: 125px;
+}
+.welcome .btn {
+  width: 150px;
+}
+.welcome .btn:hover {
+  width: 200px;
+}
+.welcome h1 {
+  text-shadow: 3px 2px black;
+  margin-top: 60px;
+}
+h1,
+h2 {
+  text-shadow: 3px 2px black;
+}
+.about .card {
+  margin-left: 10px;
+  padding: 3px;
+  background-color: rgba(17, 18, 18, 0.2);
+}
+.about .row {
+  padding: 8px;
+}
+.card a {
+  text-decoration: none;
+}
+.card h5,
+p {
+  color: white;
+}
+.services .card {
+  margin-left: 15px;
+  background-color: rgba(17, 18, 18, 0.2);
+  box-shadow: 0px 25px 30px black;
+}
+
+.portfolio .carousel {
+  margin-top: 40px;
+  display: flex;
+
+  height: 410px;
+}
+.contact form {
+  margin-top: 90px;
+}
+.contact .btn:hover {
+  color: black;
+  background-color: white;
+}
