@@ -38,6 +38,13 @@ h2 {
 .about .row {
   padding: 8px;
 }
+.about img {
+  transition: 1.2s;
+}
+.about img:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 10px 6px -6px;
+}
 .card a {
   text-decoration: none;
 }
