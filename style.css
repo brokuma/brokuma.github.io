@@ -65,3 +65,19 @@ p {
   color: black;
   background-color: white;
 }
+#services,
+#index,
+#about,
+#contact,
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.services,
+.about,
+.portfolio,
+.contact,
+.index {
+  flex: 1;
+}
