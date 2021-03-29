@@ -88,3 +88,62 @@ p {
 .welcome {
   flex: 1;
 }
+.about a {
+  color: black;
+}
+.about a:hover {
+  color: white;
+  background-color: black;
+}
+
+.web {
+  animation: web 2s ease forwards;
+}
+.analysis {
+  animation: analysis 2s ease forwards;
+}
+.programming {
+  animation: programming 2s ease forwards;
+}
+.portfolio h3,
+p {
+  animation: textport 3s ease forwards;
+}
+.portfolio img {
+  animation: pictport 3s ease forwards;
+}
+@keyframes web {
+  from {
+    transform: translate(300px);
+  }
+  to {
+  }
+}
+@keyframes analysis {
+  from {
+    transform: translate(-300px);
+  }
+  to {
+  }
+}
+@keyframes programming {
+  from {
+    transform: translateY(300px);
+  }
+  to {
+  }
+}
+@keyframes textport {
+  from {
+    transform: translate(300px);
+  }
+  to {
+  }
+}
+@keyframes pictport {
+  from {
+    transform: translate(500px);
+  }
+  to {
+  }
+}
